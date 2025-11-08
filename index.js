@@ -18,7 +18,7 @@ btn_op.forEach(button => {
 
 function calcularExpressao(expressao) {
     if (!validarExpressao(expressao)) {
-        return 'Erro: Expressão contém caracteres inválidos (somente números e operadores são permitidos).';
+        return 'Erro: Expressão contém caracteres inválidos \n(somente números e operadores são permitidos).';
     }
 
     try {
